@@ -8,8 +8,8 @@ export const getMessage = () => {
   return (dispatch) => {
     axios.get('http://127.0.0.1:3000/api/v1/regards')
       .then(response => {
-        const position = response.data[Math.floor(Math.random() * (4 - 0) + 1)]
-        dispatch({ type: GET_MESSAGE_SUCCESS, payload: position })
+        // const position = response.data[Math.floor(Math.random() * (4 - 0) + 1)]
+        dispatch({ type: GET_MESSAGE_SUCCESS, payload: response.data })
       })
       .catch(err => dispatch({ type: GET_MESSAGE_FAILED, payload: err }))
   }
