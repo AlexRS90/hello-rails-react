@@ -1,24 +1,56 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
+![](https://img.shields.io/badge/Ruby-red)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Hello Rails & React
 
-Things you may want to cover:
+> API built with Ruby on Rails, Front-end developed with React and Redux
 
-* Ruby version
+## Built With
 
-* System dependencies
+- Ruby On Rails
+- React
+- Redux
 
-* Configuration
 
-* Database creation
+## To get a local copy up and running follow these simple example steps.
 
-* Database initialization
+Open your termnial and run the following command:
 
-* How to run the test suite
+<code>git clone https://github.com/AlexRS90/hello-rails-react.git</code>
+ - cd recipe-app
+ - git checkout rails-react-app
+ - bundle install
+ - rails db:create
+ - rails db:migrate
+ - rails db: seed
+ - <code>rails s</code> <br>
 
-* Services (job queues, cache servers, search engines, etc.)
+ Open your browser and type the following URL <code>http://127.0.0.1:3000/</code>
 
-* Deployment instructions
+Finally you can see 5 random messages, to change it just refresh your browser.
+Enjoy!
 
-* ...
+### Prerequisites
+
+- Ruby
+- Terminal
+
+## Author
+
+👤 **Alejandro Ramos**
+
+- GitHub: [@AlexRS90](https://github.com/AlexRS90)
+- Twitter: [@AlejandroRBenji](https://twitter.com/AlejandroRBenji)
+- LinkedIn: [@AlexRS90](https://www.linkedin.com/in/alexrs90/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is MIT licensed.
