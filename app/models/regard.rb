@@ -1,0 +1,2 @@
+class Regard < ApplicationRecord
+end
